@@ -1,2 +1,9 @@
 data/
 *.zip
+*.tar.gz
+*.sqlite*
+*.log
+.env
+.env.*
+.claude/settings.local.json
+
