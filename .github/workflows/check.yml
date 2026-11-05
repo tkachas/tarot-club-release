@@ -1,0 +1,24 @@
+name: Check application
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Check JavaScript syntax
+        run: |
+          node --check server.mjs
+          node --check public/app.js
+      - name: Test shared data API
+        run: node --test test/server.test.mjs
+
