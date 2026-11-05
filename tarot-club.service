@@ -1,0 +1,25 @@
+[Unit]
+Description=Private Tarot Club application
+After=network.target
+
+[Service]
+Type=simple
+User=deploy
+Group=deploy
+WorkingDirectory=/home/deploy/tarot-club
+Environment=HOST=127.0.0.1
+Environment=PORT=3000
+Environment=DATA_DIR=/home/deploy/tarot-club/data
+Environment=NODE_ENV=production
+ExecStart=/home/deploy/.local/node24/bin/node /home/deploy/tarot-club/server.mjs
+Restart=on-failure
+RestartSec=3
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ReadWritePaths=/home/deploy/tarot-club/data
+CapabilityBoundingSet=
+
+[Install]
+WantedBy=multi-user.target

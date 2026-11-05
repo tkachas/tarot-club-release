@@ -1,0 +1,548 @@
+[
+  {
+    "id": 0,
+    "name": "The Fool",
+    "title": "Шут",
+    "group": "Старшие арканы",
+    "image": "/cards/01.jpg"
+  },
+  {
+    "id": 1,
+    "name": "The Magician",
+    "title": "Маг",
+    "group": "Старшие арканы",
+    "image": "/cards/02.jpg"
+  },
+  {
+    "id": 2,
+    "name": "The High Priestess",
+    "title": "Верховная Жрица",
+    "group": "Старшие арканы",
+    "image": "/cards/03.jpg"
+  },
+  {
+    "id": 3,
+    "name": "The Empress",
+    "title": "Императрица",
+    "group": "Старшие арканы",
+    "image": "/cards/04.jpg"
+  },
+  {
+    "id": 4,
+    "name": "The Emperor",
+    "title": "Император",
+    "group": "Старшие арканы",
+    "image": "/cards/05.jpg"
+  },
+  {
+    "id": 5,
+    "name": "The Hierophant",
+    "title": "Иерофант",
+    "group": "Старшие арканы",
+    "image": "/cards/06.jpg"
+  },
+  {
+    "id": 6,
+    "name": "The Lovers",
+    "title": "Влюблённые",
+    "group": "Старшие арканы",
+    "image": "/cards/07.jpg"
+  },
+  {
+    "id": 7,
+    "name": "The Chariot",
+    "title": "Колесница",
+    "group": "Старшие арканы",
+    "image": "/cards/08.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Strength",
+    "title": "Сила",
+    "group": "Старшие арканы",
+    "image": "/cards/09.jpg"
+  },
+  {
+    "id": 9,
+    "name": "The Hermit",
+    "title": "Отшельник",
+    "group": "Старшие арканы",
+    "image": "/cards/10.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Wheel of Fortune",
+    "title": "Колесо Фортуны",
+    "group": "Старшие арканы",
+    "image": "/cards/11.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Justice",
+    "title": "Справедливость",
+    "group": "Старшие арканы",
+    "image": "/cards/12.jpg"
+  },
+  {
+    "id": 12,
+    "name": "The Hanged Man",
+    "title": "Повешенный",
+    "group": "Старшие арканы",
+    "image": "/cards/13.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Death",
+    "title": "Смерть",
+    "group": "Старшие арканы",
+    "image": "/cards/14.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Temperance",
+    "title": "Умеренность",
+    "group": "Старшие арканы",
+    "image": "/cards/15.jpg"
+  },
+  {
+    "id": 15,
+    "name": "The Devil",
+    "title": "Дьявол",
+    "group": "Старшие арканы",
+    "image": "/cards/16.jpg"
+  },
+  {
+    "id": 16,
+    "name": "The Tower",
+    "title": "Башня",
+    "group": "Старшие арканы",
+    "image": "/cards/17.jpg"
+  },
+  {
+    "id": 17,
+    "name": "The Star",
+    "title": "Звезда",
+    "group": "Старшие арканы",
+    "image": "/cards/18.jpg"
+  },
+  {
+    "id": 18,
+    "name": "The Moon",
+    "title": "Луна",
+    "group": "Старшие арканы",
+    "image": "/cards/19.jpg"
+  },
+  {
+    "id": 19,
+    "name": "The Sun",
+    "title": "Солнце",
+    "group": "Старшие арканы",
+    "image": "/cards/20.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Judgement",
+    "title": "Суд",
+    "group": "Старшие арканы",
+    "image": "/cards/21.jpg"
+  },
+  {
+    "id": 21,
+    "name": "The World",
+    "title": "Мир",
+    "group": "Старшие арканы",
+    "image": "/cards/22.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Ace of Wands",
+    "title": "Туз жезлов",
+    "group": "Жезлы",
+    "image": "/cards/23.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Two of Wands",
+    "title": "Двойка жезлов",
+    "group": "Жезлы",
+    "image": "/cards/24.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Three of Wands",
+    "title": "Тройка жезлов",
+    "group": "Жезлы",
+    "image": "/cards/25.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Four of Wands",
+    "title": "Четвёрка жезлов",
+    "group": "Жезлы",
+    "image": "/cards/26.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Five of Wands",
+    "title": "Пятёрка жезлов",
+    "group": "Жезлы",
+    "image": "/cards/27.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Six of Wands",
+    "title": "Шестёрка жезлов",
+    "group": "Жезлы",
+    "image": "/cards/28.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Seven of Wands",
+    "title": "Семёрка жезлов",
+    "group": "Жезлы",
+    "image": "/cards/29.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Eight of Wands",
+    "title": "Восьмёрка жезлов",
+    "group": "Жезлы",
+    "image": "/cards/30.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Nine of Wands",
+    "title": "Девятка жезлов",
+    "group": "Жезлы",
+    "image": "/cards/31.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Ten of Wands",
+    "title": "Десятка жезлов",
+    "group": "Жезлы",
+    "image": "/cards/32.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Page of Wands",
+    "title": "Паж жезлов",
+    "group": "Жезлы",
+    "image": "/cards/33.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Knight of Wands",
+    "title": "Рыцарь жезлов",
+    "group": "Жезлы",
+    "image": "/cards/34.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Queen of Wands",
+    "title": "Королева жезлов",
+    "group": "Жезлы",
+    "image": "/cards/35.jpg"
+  },
+  {
+    "id": 35,
+    "name": "King of Wands",
+    "title": "Король жезлов",
+    "group": "Жезлы",
+    "image": "/cards/36.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Ace of Cups",
+    "title": "Туз кубков",
+    "group": "Кубки",
+    "image": "/cards/37.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Two of Cups",
+    "title": "Двойка кубков",
+    "group": "Кубки",
+    "image": "/cards/38.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Three of Cups",
+    "title": "Тройка кубков",
+    "group": "Кубки",
+    "image": "/cards/39.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Four of Cups",
+    "title": "Четвёрка кубков",
+    "group": "Кубки",
+    "image": "/cards/40.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Five of Cups",
+    "title": "Пятёрка кубков",
+    "group": "Кубки",
+    "image": "/cards/41.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Six of Cups",
+    "title": "Шестёрка кубков",
+    "group": "Кубки",
+    "image": "/cards/42.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Seven of Cups",
+    "title": "Семёрка кубков",
+    "group": "Кубки",
+    "image": "/cards/43.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Eight of Cups",
+    "title": "Восьмёрка кубков",
+    "group": "Кубки",
+    "image": "/cards/44.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Nine of Cups",
+    "title": "Девятка кубков",
+    "group": "Кубки",
+    "image": "/cards/45.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Ten of Cups",
+    "title": "Десятка кубков",
+    "group": "Кубки",
+    "image": "/cards/46.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Page of Cups",
+    "title": "Паж кубков",
+    "group": "Кубки",
+    "image": "/cards/47.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Knight of Cups",
+    "title": "Рыцарь кубков",
+    "group": "Кубки",
+    "image": "/cards/48.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Queen of Cups",
+    "title": "Королева кубков",
+    "group": "Кубки",
+    "image": "/cards/49.jpg"
+  },
+  {
+    "id": 49,
+    "name": "King of Cups",
+    "title": "Король кубков",
+    "group": "Кубки",
+    "image": "/cards/50.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Ace of Swords",
+    "title": "Туз мечей",
+    "group": "Мечи",
+    "image": "/cards/51.jpg"
+  },
+  {
+    "id": 51,
+    "name": "Two of Swords",
+    "title": "Двойка мечей",
+    "group": "Мечи",
+    "image": "/cards/52.jpg"
+  },
+  {
+    "id": 52,
+    "name": "Three of Swords",
+    "title": "Тройка мечей",
+    "group": "Мечи",
+    "image": "/cards/53.jpg"
+  },
+  {
+    "id": 53,
+    "name": "Four of Swords",
+    "title": "Четвёрка мечей",
+    "group": "Мечи",
+    "image": "/cards/54.jpg"
+  },
+  {
+    "id": 54,
+    "name": "Five of Swords",
+    "title": "Пятёрка мечей",
+    "group": "Мечи",
+    "image": "/cards/55.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Six of Swords",
+    "title": "Шестёрка мечей",
+    "group": "Мечи",
+    "image": "/cards/56.jpg"
+  },
+  {
+    "id": 56,
+    "name": "Seven of Swords",
+    "title": "Семёрка мечей",
+    "group": "Мечи",
+    "image": "/cards/57.jpg"
+  },
+  {
+    "id": 57,
+    "name": "Eight of Swords",
+    "title": "Восьмёрка мечей",
+    "group": "Мечи",
+    "image": "/cards/58.jpg"
+  },
+  {
+    "id": 58,
+    "name": "Nine of Swords",
+    "title": "Девятка мечей",
+    "group": "Мечи",
+    "image": "/cards/59.jpg"
+  },
+  {
+    "id": 59,
+    "name": "Ten of Swords",
+    "title": "Десятка мечей",
+    "group": "Мечи",
+    "image": "/cards/60.jpg"
+  },
+  {
+    "id": 60,
+    "name": "Page of Swords",
+    "title": "Паж мечей",
+    "group": "Мечи",
+    "image": "/cards/61.jpg"
+  },
+  {
+    "id": 61,
+    "name": "Knight of Swords",
+    "title": "Рыцарь мечей",
+    "group": "Мечи",
+    "image": "/cards/62.jpg"
+  },
+  {
+    "id": 62,
+    "name": "Queen of Swords",
+    "title": "Королева мечей",
+    "group": "Мечи",
+    "image": "/cards/63.jpg"
+  },
+  {
+    "id": 63,
+    "name": "King of Swords",
+    "title": "Король мечей",
+    "group": "Мечи",
+    "image": "/cards/64.jpg"
+  },
+  {
+    "id": 64,
+    "name": "Ace of Pentacles",
+    "title": "Туз пентаклей",
+    "group": "Пентакли",
+    "image": "/cards/65.jpg"
+  },
+  {
+    "id": 65,
+    "name": "Two of Pentacles",
+    "title": "Двойка пентаклей",
+    "group": "Пентакли",
+    "image": "/cards/66.jpg"
+  },
+  {
+    "id": 66,
+    "name": "Three of Pentacles",
+    "title": "Тройка пентаклей",
+    "group": "Пентакли",
+    "image": "/cards/67.jpg"
+  },
+  {
+    "id": 67,
+    "name": "Four of Pentacles",
+    "title": "Четвёрка пентаклей",
+    "group": "Пентакли",
+    "image": "/cards/68.jpg"
+  },
+  {
+    "id": 68,
+    "name": "Five of Pentacles",
+    "title": "Пятёрка пентаклей",
+    "group": "Пентакли",
+    "image": "/cards/69.jpg"
+  },
+  {
+    "id": 69,
+    "name": "Six of Pentacles",
+    "title": "Шестёрка пентаклей",
+    "group": "Пентакли",
+    "image": "/cards/70.jpg"
+  },
+  {
+    "id": 70,
+    "name": "Seven of Pentacles",
+    "title": "Семёрка пентаклей",
+    "group": "Пентакли",
+    "image": "/cards/71.jpg"
+  },
+  {
+    "id": 71,
+    "name": "Eight of Pentacles",
+    "title": "Восьмёрка пентаклей",
+    "group": "Пентакли",
+    "image": "/cards/72.jpg"
+  },
+  {
+    "id": 72,
+    "name": "Nine of Pentacles",
+    "title": "Девятка пентаклей",
+    "group": "Пентакли",
+    "image": "/cards/73.jpg"
+  },
+  {
+    "id": 73,
+    "name": "Ten of Pentacles",
+    "title": "Десятка пентаклей",
+    "group": "Пентакли",
+    "image": "/cards/74.jpg"
+  },
+  {
+    "id": 74,
+    "name": "Page of Pentacles",
+    "title": "Паж пентаклей",
+    "group": "Пентакли",
+    "image": "/cards/75.jpg"
+  },
+  {
+    "id": 75,
+    "name": "Knight of Pentacles",
+    "title": "Рыцарь пентаклей",
+    "group": "Пентакли",
+    "image": "/cards/76.jpg"
+  },
+  {
+    "id": 76,
+    "name": "Queen of Pentacles",
+    "title": "Королева пентаклей",
+    "group": "Пентакли",
+    "image": "/cards/77.jpg"
+  },
+  {
+    "id": 77,
+    "name": "King of Pentacles",
+    "title": "Король пентаклей",
+    "group": "Пентакли",
+    "image": "/cards/78.jpg"
+  }
+]

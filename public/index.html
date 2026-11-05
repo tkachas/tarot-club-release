@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff4f7">
+  <title>Бимбо карты — клуб гадалок</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="brand">✦ БИМБО КАРТЫ ✦</div>
+    <nav aria-label="Разделы">
+      <button type="button" id="book-nav" class="active">Колода</button>
+      <button type="button" id="journal-nav">Журнал гаданий ↗</button>
+    </nav>
+    <label class="my-name">Ваше имя <input id="my-name" maxlength="100" placeholder="Для новых трактовок"></label>
+  </header>
+
+  <div id="book-view">
+    <section class="hero">
+      <div class="eyebrow">КЛУБ ГАДАЛОК</div>
+      <h1>Нужна <span>подсказка</span></h1>
+      <div class="stars">✧ ✦ ✧</div>
+      <p id="book-status">Загружаем карты…</p>
+    </section>
+    <nav class="toolbar" id="filters" aria-label="Масти">
+      <input id="search" type="search" placeholder="Найти карту…" aria-label="Найти карту">
+    </nav>
+    <p id="empty" hidden>Таких карт не найдено ✧</p>
+    <main class="grid" id="grid"></main>
+  </div>
+
+  <section id="journal-view" hidden>
+    <div class="hero">
+      <div class="eyebrow">КЛУБ ГАДАЛОК · ОБЩИЕ ИСТОРИИ</div>
+      <h1>Журнал <span>гаданий</span></h1>
+      <p>Вопрос, карты и то, как всё сложилось.</p>
+      <button type="button" id="new-reading">＋ Новое гадание</button>
+    </div>
+    <div id="journal-list"></div>
+  </section>
+
+  <p id="save-status" role="status" aria-live="polite"></p>
+  <footer>✦ Бимбо карты · общие записи сохраняются на сервере ✦</footer>
+  <datalist id="author-suggestions">
+    <option value="🌸 Оля"></option><option value="🌙 Лера"></option>
+    <option value="✨ Саша"></option><option value="🦋 Рита"></option>
+  </datalist>
+
+  <dialog id="picker" aria-labelledby="picker-title">
+    <div class="picker-head">
+      <h2 id="picker-title">Выбери карты ✧</h2>
+      <button type="button" id="picker-close">Готово</button>
+    </div>
+    <input id="picker-search" type="search" placeholder="Найти карту…" aria-label="Найти карту в колоде">
+    <p>Нажми на карту, чтобы добавить или убрать её.</p>
+    <div id="picker-grid"></div>
+  </dialog>
+</body>
+</html>

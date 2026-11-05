@@ -1,0 +1,38 @@
+@import url('/original.css');
+
+header nav { display:flex; gap:8px; flex-wrap:wrap }
+.my-name { display:flex; align-items:center; gap:8px; font-size:12px; color:#987187 }
+.my-name input { min-width:0; width:175px; padding:8px 12px; font-size:12px }
+#book-status { font-size:13px; color:#8e6179 }
+#empty { text-align:center; margin:50px 0 }
+#empty:not([hidden]) { display:block }
+#save-status { position:fixed; bottom:14px; right:18px; z-index:10; max-width:min(380px,90vw); margin:0; padding:9px 15px; border-radius:15px; background:#fff9fc; box-shadow:0 4px 22px #71365030; color:#824866; font-size:12px }
+#save-status:empty { display:none }
+.reading-empty { font-size:12px; color:#9e6b84 }
+.reading-actions { justify-content:space-between }
+.back .reading textarea { min-height:125px }
+.back .reading input { min-width:0; width:100%; padding:8px 12px; font-size:12px }
+.reading .field-label { font:13px system-ui; font-weight:600 }
+.field { margin:14px 0 }
+.field label { display:block; font-size:12px; letter-spacing:.5px; margin:0 0 8px }
+.field input,.field textarea,.field select { width:100%; min-width:0; border:1px solid #e4c4d3; border-radius:12px; padding:12px; background:white; color:#64394f }
+.field textarea { min-height:120px; resize:vertical; line-height:1.6 }
+.field-warning { color:#9d315d; font-size:12px; line-height:1.4; margin:7px 0 }
+.field-warning button { padding:6px 9px; margin:5px 5px 0 0; font-size:11px }
+.entry-actions { display:flex; flex-wrap:wrap; gap:8px; margin-top:18px }
+.danger { color:#a13a62; background:transparent }
+.empty-journal { text-align:center; margin:50px 0; color:#9e6b84 }
+.question-block { border-top:1px solid #ecd0dc; margin-top:24px; padding-top:15px }
+.spread-card img { display:block }
+.spread-card button { min-width:30px; min-height:30px }
+#picker-grid button { min-width:0; width:100%; display:flex; flex-direction:column; align-items:center; gap:5px }
+#picker-grid img { display:block }
+#picker-grid span { overflow-wrap:anywhere }
+@media(max-width:700px) {
+  header { padding:14px 4% }
+  .brand { width:100% }
+  .my-name { width:100% }
+  .my-name input { flex:1 }
+  .grid { padding:0 14px; gap:16px }
+  .scene { height:380px }
+}
